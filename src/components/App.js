@@ -13,6 +13,7 @@ const App = () => {
         Enter your name: <br/>
         <input 
           type="text"
+          value={name}
           onChange={handleInputChange}
         />
         <p>Hello {name}</p>

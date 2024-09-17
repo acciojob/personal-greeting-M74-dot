@@ -10,13 +10,14 @@ const App = () => {
   return (
     <div id="main">
         {/* Do not remove the main div */}
-        Enter your name: <br/>
+        <label htmlFor="ip">Enter your name:</label> <br/>
         <input 
+          id="ip"
           type="text"
           value={name}
           onChange={handleInputChange}
         />
-        {name && <p>Hello {name}!</p>}
+        <p>{name && `Hello {name}!`}</p>
     </div>
   )
 }

@@ -16,7 +16,7 @@ const App = () => {
           value={name}
           onChange={handleInputChange}
         />
-        {name && <p>Hello {name}</p>}
+        {name && <p>Hello {name}!</p>}
     </div>
   )
 }
